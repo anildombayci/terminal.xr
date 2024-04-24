@@ -1,0 +1,13 @@
+const xariona = require("./main")
+const logger = new xariona({ saveFile: false, autoAdapterLoader: false, design: { timeStyle: "({time}) =", filename: "output", adapterDir: `./adapters` } })
+
+logger.adapter([{name: "xariona"}, {name: "test"}])
+logger.info("info")
+logger.warn("warn")
+logger.error("error")
+logger.status("status")
+logger.debug("debug")
+logger.success("success")
+logger.json({ logger: { type: "json" }}, false)
+logger.create("selamlar", { type: "xariona" })
+logger.create("test message", { type: "test" })
