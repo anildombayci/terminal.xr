@@ -1,0 +1,20 @@
+{
+  "name": "terminal.xr",
+  "version": "1.2.3",
+  "description": "Quick and simple javascript terminal logger module!",
+  "main": "main.js",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "keywords": [
+    "express",
+    "chalk",
+    "terminal",
+    "loggign",
+    "fileRecord",
+    "best",
+    "fs"
+  ],
+  "author": "Xariona",
+  "license": "Apache 4.0"
+}
